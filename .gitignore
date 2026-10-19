@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.env
+data_store/*.sqlite3
+data_store/scratch/*
+data_store/sessions/*
+data_store/*.json
+data_store/*.jsonl
+!data_store/.gitkeep
+.pytest_cache/
+*.egg-info/
+.pytest_cache

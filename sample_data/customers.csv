@@ -1,0 +1,11 @@
+customer_id,name,email,region,signup_date
+1,Alice Johnson,alice.johnson@example.com,West,2022-01-15
+2,Bob Smith,bob.smith@example.com,East,2022-02-20
+3,Carla Diaz,carla.diaz@example.com,West,2022-03-05
+4,David Lee,david.lee@example.com,North,2022-03-22
+5,Elena Petrova,elena.petrova@example.com,South,2022-04-11
+6,Frank Müller,frank.muller@example.com,East,2022-05-02
+7,Grace Kim,grace.kim@example.com,North,2022-05-19
+8,Hassan Ali,hassan.ali@example.com,West,2022-06-07
+9,Isabel Rossi,isabel.rossi@example.com,South,2022-06-30
+10,Jack Thompson,jack.thompson@example.com,East,2022-07-14

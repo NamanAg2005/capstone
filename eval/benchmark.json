@@ -1,0 +1,58 @@
+[
+  {
+    "id": "agg-001",
+    "category": "aggregation",
+    "datasets": ["sample_data/orders.csv"],
+    "question": "How many orders are there in total?",
+    "expected_answer": "35"
+  },
+  {
+    "id": "agg-002",
+    "category": "aggregation",
+    "datasets": ["sample_data/orders.csv"],
+    "question": "What is the total quantity sold across all orders?",
+    "expected_answer": "92"
+  },
+  {
+    "id": "filter-001",
+    "category": "filter",
+    "datasets": ["sample_data/orders.csv"],
+    "question": "How many orders were for 'Widget A'?",
+    "expected_answer": "12"
+  },
+  {
+    "id": "join-001",
+    "category": "join",
+    "datasets": ["sample_data/orders.csv", "sample_data/customers.csv"],
+    "question": "How many orders came from customers in the 'West' region?",
+    "expected_answer": "11"
+  },
+  {
+    "id": "time-001",
+    "category": "time-series",
+    "datasets": ["sample_data/orders.csv"],
+    "question": "How many orders were placed in Q1 2023 (January through March)?",
+    "expected_answer": "10"
+  },
+  {
+    "id": "ambiguous-001",
+    "category": "ambiguous/multi-hypothesis",
+    "datasets": ["sample_data/orders.csv"],
+    "question": "What is the best-selling product?",
+    "expected_answer": "Widget A"
+  },
+  {
+    "id": "pii-001",
+    "category": "pii-masked",
+    "datasets": ["sample_data/customers.csv"],
+    "question": "How many unique customer regions are there?",
+    "expected_answer": "4"
+  },
+  {
+    "id": "large-001",
+    "category": "large-data",
+    "datasets": ["sample_data/orders.csv"],
+    "question": "What is the average unit price across all orders?",
+    "expected_answer": "66.75"
+  }
+]

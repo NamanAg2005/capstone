@@ -1,0 +1,30 @@
+# Core
+pydantic>=2.6.0
+python-dotenv>=1.0.0
+
+# Data handling / execution backends
+pandas>=2.2.0
+duckdb>=1.5.0
+numpy>=1.26.0
+
+# Orchestration
+langgraph>=0.2.0
+
+# Sandboxed execution support
+psutil>=5.9.0
+
+# Language detection (translation layer)
+langdetect>=1.0.9
+
+# Report export
+nbformat>=5.10.0
+
+# Web UI
+streamlit>=1.35.0
+
+# Tests
+pytest>=8.0.0
+
+# OpenAI-compatible client: used for Groq (the primary provider) and for the
+# optional local-inference fallback (Ollama/vLLM/LM Studio).
+openai>=1.30.0
